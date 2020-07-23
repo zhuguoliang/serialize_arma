@@ -15,7 +15,6 @@ void test_rowvec() {
 
   std::ofstream outputStream;
   outputStream.open("rbin.dat");
-  std::ostringstream oss;
   boost::archive::binary_oarchive oa(outputStream);
   oa &r1;
   outputStream.close();
@@ -35,7 +34,6 @@ void test_mat() {
 
   std::ofstream outputStream;
   outputStream.open("bin.dat");
-  std::ostringstream oss;
   boost::archive::binary_oarchive oa(outputStream);
   oa &a;
   outputStream.close();
