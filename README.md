@@ -1,3 +1,8 @@
 # serialize_arma
-This is a toy project for serializing armadillo.
-Feel free to star and clone.
+Serializing armadillo matrices.
+
+## Supported data structures:
+* arma::mat
+* arma::cube
+* arma::rowvec
+* arma::vec
